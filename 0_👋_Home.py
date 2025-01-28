@@ -4,7 +4,7 @@ import base64
     
 # ----- Page configs (tab title, favicon) -----
 st.set_page_config(
-    page_title="<Your Name> Portfolio",
+    page_title="Jakob's Portfolio",
     page_icon="📊",
 )
 
@@ -20,7 +20,7 @@ with st.sidebar:
 
 
 # ----- Top title -----
-st.write(f"""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is ????</h1></div>""", unsafe_allow_html=True)  # TODO: Add your name
+st.write(f"""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Jakob</h1></div>""", unsafe_allow_html=True)  # TODO: Add your name
 
 
 # ----- Profile image file -----
@@ -39,7 +39,7 @@ st.write(f"""
 
 
 # ----- Personal title or short description -----
-current_role = "Current Role and/or Studies or Description"   # TODO: Change this
+current_role = "I'm a Big Data & Analytics student @EAE and work in Project Management @GvW Graf von Westphalen"   # TODO: Change this
 
 st.write(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""", unsafe_allow_html=True)
 
@@ -51,17 +51,17 @@ st.subheader("About Me")
 
 # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
 st.write("""
-- 🧑‍💻 I am a <Current Role and/or Studies> 
+- 🧑‍💻 I'm a Big Data & Analytics student @EAE and a project management intern @GvW Graf von Westphalen
 
-- 🛩️ prev: <Previous Experience, Background or Studies>
+- 🛩️ prev: I have a B.Sc. in Economics and have experience in Project Management & Consulting
 
-- ❤️ <Your Passion and/or Interests>
+- ❤️ I'm passionate about sports (particularly F1 and football), music, and technology.
 
 - 🤖 <Your Personal Projects>
 
-- 🏂 <Your Hobbies>
+- 🏂 On the weekend you'll either find me at a festival or hiking in the mountains. 
 
-- 📫 How to reach me: <Your Email>
+- 📫 How to reach me: jakobspranger@gmx.de
 
 - 🏠 Barcelona
 """)
