@@ -15,7 +15,7 @@ with st.sidebar:
     st.header("Introduction to Programming Languages for Data")
     st.write("###")
     # st.write("***Final Project - Dec 2023***") Change?
-    st.write("**Author:** Jakob Spranger")
+    st.write("**Author:** [Jakob Spranger](https://github.com/jakobjspranger)")
     st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
 
 
@@ -24,7 +24,7 @@ st.write(f"""<div style="text-align: center;"><h1 style="text-align: center;">�
 
 
 # ----- Profile image file -----
-profile_image_file_path = "/Users/Jakob_1/Desktop/2024_EAE/IPLD/eae_ipld_project/data/profile.jpeg"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
+profile_image_file_path = "profile.jpeg"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
 
 with open(profile_image_file_path, "rb") as img_file:
     img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
@@ -57,7 +57,7 @@ st.write("""
 
 - ❤️ I'm passionate about sports (particularly F1 and football), music, and technology.
 
-- 🤖 I'm currently working on a project to track and classify my monthly expenses.
+- 🤖 I'm currently working on a project to track and classify my monthly expenses automatically with Python.
 
 - 🏂 On the weekend you'll either find me watching sports, at a festival or hiking in the mountains. 
 
