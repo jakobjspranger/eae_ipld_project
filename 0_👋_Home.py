@@ -24,7 +24,7 @@ st.write(f"""<div style="text-align: center;"><h1 style="text-align: center;">�
 
 
 # ----- Profile image file -----
-profile_image_file_path = "profile.png"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
+profile_image_file_path = "/Users/Jakob_1/Desktop/2024_EAE/IPLD/eae_ipld_project/data/profile.jpeg"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
 
 with open(profile_image_file_path, "rb") as img_file:
     img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
@@ -53,13 +53,13 @@ st.subheader("About Me")
 st.write("""
 - 🧑‍💻 I'm a Big Data & Analytics student @EAE and a project management intern @GvW Graf von Westphalen
 
-- 🛩️ prev: I have a B.Sc. in Economics and have experience in Project Management & Consulting
+- 🛩️ I have a B.Sc. in Economics and have experience in Project Management & Consulting
 
 - ❤️ I'm passionate about sports (particularly F1 and football), music, and technology.
 
-- 🤖 <Your Personal Projects> Add something here
+- 🤖 I'm currently working on a project to track and classify my monthly expenses.
 
-- 🏂 On the weekend you'll either find me at a festival or hiking in the mountains. 
+- 🏂 On the weekend you'll either find me watching sports, at a festival or hiking in the mountains. 
 
 - 📫 How to reach me: jakobspranger@gmx.de
 
