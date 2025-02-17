@@ -14,7 +14,7 @@ with st.sidebar:
     st.image("eae_img.png", width=200)
     st.header("Introduction to Programming Languages for Data")
     st.write("###")
-    st.write("***Final Project - Dec 2023***")
+    # st.write("***Final Project - Dec 2023***") Change?
     st.write("**Author:** <Your Name>")
     st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
 
@@ -57,13 +57,13 @@ st.write("""
 
 - ❤️ I'm passionate about sports (particularly F1 and football), music, and technology.
 
-- 🤖 <Your Personal Projects>
+- 🤖 <Your Personal Projects> Add something here
 
 - 🏂 On the weekend you'll either find me at a festival or hiking in the mountains. 
 
 - 📫 How to reach me: jakobspranger@gmx.de
 
-- 🏠 Barcelona
+- 🏠 Barcelona, Spain
 """)
 
 # Feel free to add other points like your Linkedin, Github, Social Media, etc.
